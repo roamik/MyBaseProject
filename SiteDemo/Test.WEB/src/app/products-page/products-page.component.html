@@ -11,7 +11,7 @@
 </form>
 
 <div class="block">
-  <table align="center" width="320" border="1" cellpadding="0" cellspacing="0">
+  <table *ngIf="products.length>0" align="center" width="320" border="1" cellpadding="0" cellspacing="0">
     <tr id="headers">
       <th>Name</th>
       <th>Type</th>
@@ -26,6 +26,9 @@
       </td>
     </tr>
   </table>
+  <span *ngIf="products.length ===0">
+    There are no products in the database. Add one.
+  </span>
 </div>
 <mat-paginator [length]="length"
                [pageSize]="pageSize"

@@ -1,27 +1,7 @@
-.block{
-  margin-top:10px;
-  margin-bottom:10px;
-}
 #headers{
   background-color: #a5a5a5;
 }
 #products {
   background-color: #eaeaea;
-}
-#productName {
-  background-color: #51f7c9;
-}
-#productType {
-  background-color: #68b8f5;
-}
-.example-container {
-  display: flex;
-  flex-direction: column;
-  min-width: 300px;
-}
-
-.mat-table {
-  overflow: auto;
-  max-height: 500px;
 }
 

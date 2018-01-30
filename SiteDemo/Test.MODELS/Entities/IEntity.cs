@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Site.MODELS.Entities
+namespace Test.MODELS.Entities
 {
     public interface IEntity
     {

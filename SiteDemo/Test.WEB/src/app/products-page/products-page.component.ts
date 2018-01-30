@@ -83,8 +83,7 @@ export class ProductsPageComponent implements OnInit {
       });
   }
 
-  selectProduct(product) {
+  selectProduct(product) { //select a product to edit
     this.product = product;
-
   }
 }

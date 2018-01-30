@@ -1,9 +1,6 @@
-﻿using Test.DAL;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using Test.DAL.Abstract;
-using System.Linq;
 using Test.MODELS.Entities;
 
 namespace Test.API.Helpers
@@ -16,10 +13,6 @@ namespace Test.API.Helpers
             _unitOfWork = unitOfWork;
         }
 
-
-
-        //In this function you can add some testing records into your database 
-        //Warning!!! to avoid duplicates - check if data already exists
         public async Task Initialize()
         {
             var productsCount = await _unitOfWork.ProductsRepository.CountAsync(filters: null);

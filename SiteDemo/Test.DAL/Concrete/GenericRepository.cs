@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using Test.DAL.Abstract;
 using Test.MODELS;
 using Test.MODELS.Entities;
-using Site.MODELS.Entities;
 
 namespace Test.DAL.Concrete
 {
